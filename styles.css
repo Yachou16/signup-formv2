@@ -1,0 +1,77 @@
+.page-layout {
+    min-height: 100vh;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar {
+    flex: 0 0 35%;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo-banner {
+width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  gap: 10px;
+  margin-top: 50%;
+}
+
+.logo-banner img {
+  height: 80px; /* Of width: 60px; */
+  width: auto;
+}
+
+.logo-banner span {
+   color: white;
+   font-size: 2em;
+}
+.intro {
+    text-align: center;
+}
+.content-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafafa;
+    gap: 50px;
+    padding-left: 50px;
+}
+
+.inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    max-width: 500px;
+}
+
+.signup-form {
+    background-color: white;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+}
+
+.input-group label {
+font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.input-group input {
+    padding: 6px 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
